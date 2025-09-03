@@ -107,4 +107,5 @@ for epoch in range(num_epochs):
 final_Y = Y_torch.data.numpy()
 ##save result
 np.savetxt("",final_Y)
+np.savetxt("",cor_history)
 np.savetxt("", best_Y)
