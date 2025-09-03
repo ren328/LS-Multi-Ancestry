@@ -9,14 +9,13 @@ r['source']('path')
 2. We need GWAS summary data for two different ancestry, for example, the White ancestry GWAS should be saved as txt file, only marginal effect
 sizes are needed for each SNP, the order should the same as the order in the column of SNPs loaded in the first step. The two GWAS could be loaded by adding the path in "" in the below code.
 
-##white GWAS
+white GWAS:
 beta1=np.loadtxt("")
-## black GWAS
+black GWAS:
 beta=np.loadtxt("")
 
 
 3. The final result could be saved by changing the path in  "" below.
-## save data
 np.savetxt("",yhat)
 
 4. Notice that the omega1,omega2, p1,p2 could be changed as needed.
