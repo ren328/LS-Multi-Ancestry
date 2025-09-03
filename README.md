@@ -11,6 +11,7 @@ sizes are needed for each SNP, the order should the same as the order in the col
 
 white GWAS:
 beta1=np.loadtxt("")
+
 black GWAS:
 beta=np.loadtxt("")
 
