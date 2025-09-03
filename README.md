@@ -6,6 +6,7 @@ For LS-Imputation-Combined method, see Combine.py.
 ready in RData format, and changed the following 'path' into your path to load the data;
 r['source']('path')
 
+
 2. We need GWAS summary data for two different ancestry, for example, the White ancestry GWAS should be saved as txt file, only marginal effect
 sizes are needed for each SNP, the order should the same as the order in the column of SNPs loaded in the first step. The two GWAS could be loaded by adding the path in "" in the below code.
 
@@ -14,7 +15,6 @@ beta1=np.loadtxt("")
 
 black GWAS:
 beta=np.loadtxt("")
-
 
 3. The final result could be saved by changing the path in  "" below.
 np.savetxt("",yhat)
