@@ -65,10 +65,13 @@ beta=np.loadtxt("")
 4. The imputed trait values with single Ancestry(e.g. White Ancestry) could be loaded by changing the path below
 yhat1=np.loadtxt("")
 
-5. The imputed trait values at the last epoch, and the imputed trait values with best AUC could be saved by adding
+5. The imputed trait values at the last epoch, correlation change with epoch and the imputed trait values with best AUC could be saved by adding
 path to the following three:
 
 np.savetxt("",final_Y)
+
+np.savetxt("",cor_history)
+
 np.savetxt("", best_Y)
 
 
